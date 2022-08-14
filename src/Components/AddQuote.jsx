@@ -7,7 +7,7 @@ export default function AddQuote() {
 
   const formSubmit = (e) => {
     e.preventDefault();
-    fetch("api-link", {
+    fetch("https://inspirational-quotes-cc.web.app/add-quote", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

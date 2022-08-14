@@ -5,10 +5,10 @@ export default function QuoteList() {
   const [quote, setQuote] = useState("");
 
   useEffect(() => {
-    fetch("apilink")
+    // fetch("https://inspirational-quotes-cc.web.app/all-quotes")
       .then((res) => res.json())
       .then((data) => setQuote(data))
-      .catch(() => {});
+      .catch((error) => console.log(error));
   }, []);
   if (!quote) {
     return <h2>Loading...</h2>;
