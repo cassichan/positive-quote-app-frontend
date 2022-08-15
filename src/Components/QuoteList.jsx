@@ -5,23 +5,16 @@ export default function QuoteList() {
   const [quote, setQuote] = useState("");
 
   useEffect(() => {
+    // e.preventDefault();
     // fetch("https://inspirational-quotes-cc.web.app/all-quotes")
+    fetch("https://api.sampleapis.com/wines/reds")
       .then((res) => res.json())
       .then((data) => setQuote(data))
-      .catch((error) => console.log(error));
-  }, []);
-  if (!quote) {
-    return <h2>Loading...</h2>;
-  }
+      .catch((error) => console.log(error))
+  }, [])
   return (
-    <p>
-      This is a list of all the quotes!
-      {quote &&
-        quote.map((quote) => {
-          <section className="quote-list" key={quote.id}>
-            <QuoteCard />
-          </section>;
-        })}
-    </p>
+    <main>
+      <QuoteCard quote={quote} />
+    </main>
   );
 }
