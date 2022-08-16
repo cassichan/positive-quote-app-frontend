@@ -3,15 +3,9 @@ export default function QuoteCard({ quote }) {
     <div className="quoteCard">
       <main>
         <p>
-          {quote &&
-            quote.map((quote) => {
-              <section className="posted-quote" key={quote.id}></section>;
-            })}
+          This is quote card
         </p>
-        <p>{quote.body}</p>
-        <h6>
-          <i>{quote.author}</i>
-        </h6>
+       
       </main>
     </div>
   );

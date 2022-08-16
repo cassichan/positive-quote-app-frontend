@@ -31,8 +31,7 @@ export default function AddQuote({ quote }, { author }) {
       return;
     }
     setErrorMessage("");
-    // fetch("https://inspirational-quotes-cc.web.app/add-quote", {
-    fetch("https://api.sampleapis.com/wines/reds", {
+    fetch("https://inspirational-quotes-cc.web.app/add-quote", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -72,6 +71,7 @@ export default function AddQuote({ quote }, { author }) {
           value={author}
           onChange={updateForm}
         ></input>
+        {/* check if type or htmltype */}
         <button onClick={handleSubmit} type="submit">
           Submit
         </button>

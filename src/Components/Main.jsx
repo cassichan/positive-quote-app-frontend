@@ -1,12 +1,13 @@
+
 import QuoteList from "./QuoteList.jsx";
 
-export default function Main() {
+export default function Main({quotes, setQuotes}) {
   return (
     <>
-      <h2>
+      <section>
         <u> This is main</u>
-      </h2>
-      <QuoteList />
+      </section>
+      <QuoteList quotes = {quotes} setQuotes = {setQuotes}/>
     </>
   );
 }
