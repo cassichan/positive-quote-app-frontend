@@ -1,0 +1,13 @@
+header > h1 {
+    text-align: center;
+    background-color: rgb(174, 212, 223);
+    color: goldenrod;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+footer {
+    background-color: lightgray;
+    position: fixed;
+
+}
