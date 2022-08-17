@@ -3,7 +3,7 @@ import Quotes from './Quotes.jsx'
 import "../Styles/QuoteList.css"
 
 
-export default function SecondQuoteList ()  {
+export default function QuoteList ()  {
     const [quote, setQuote] = useState('')
     useEffect(() => {
         fetch("https://inspirational-quotes-cc.web.app/all-quotes")
@@ -20,7 +20,7 @@ export default function SecondQuoteList ()  {
             "https://inspirational-quotes-cc.web.app/all-quotes"
           );
           const data = await results.json();
-          setQuote(data);
+          // setQuote(data);
           console.log(data);
           console.log(quote)
         } catch (err) {
@@ -30,7 +30,7 @@ export default function SecondQuoteList ()  {
     return (
         <div id = "main">
             <ul>
-                <Quotes  quote={quote}/>
+                <Quotes quote={quote}/>
             </ul>
             <button
         onClick={() => {
