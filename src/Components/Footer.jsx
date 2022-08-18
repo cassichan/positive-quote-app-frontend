@@ -2,8 +2,9 @@ import "../App.css"
 
 export default function Footer () {
     return (
-        <>
-       <h3>This is footer</h3>
-        </>
+        <footer>
+       <p>Let's share some good... One quote at a time
+        🙏🌞</p>
+        </footer>
     )
 }

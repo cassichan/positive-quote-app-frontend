@@ -1,10 +1,11 @@
 export default function Header() {
   return (
     <header>
+      <nav>
       <h1>
-        Let's share some good, one quote at a time <br />
-        🙏🌞
+        NAV
       </h1>
+      </nav>
     </header>
   );
 }

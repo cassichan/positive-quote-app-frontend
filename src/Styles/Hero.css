@@ -1,0 +1,16 @@
+#hero-main {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#img-container > img {
+  height: 50vh;
+  width: auto;
+  padding: 30px;
+}

@@ -1,10 +1,17 @@
-main {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   text-align: center;
-   background-color: white
+.add-quote-main {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
 }
 
-img {
-    width: 40vw;
-    height: 60vh;
+
+
+#add-quote-form {
+  background-image: url("https://cdn.pixabay.com/photo/2021/01/04/17/37/cats-5888277_1280.png");
+  /* background-size: 600px 600px; */
+  opacity: 0.5;
 }
