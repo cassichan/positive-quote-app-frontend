@@ -1,0 +1,15 @@
+#bottom-nav {
+    background: linear-gradient(turquoise, white);
+    background-color: #fffbee;
+    margin: 0;
+    padding: 1em;
+    position: sticky;
+    color: black;
+    padding: 32px 8px;
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-weight: bold;
+  }

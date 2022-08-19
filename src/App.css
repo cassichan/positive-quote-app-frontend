@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Nanum+Gothic:wght@700&family=Open+Sans:ital,wght@0,300;1,400&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
 *,
 *::before,
 *::after {
@@ -8,14 +14,38 @@
   box-sizing: inherit;
 }
 
-header {
-  background-color: goldenrod;
-  position: sticky;
+
+
+
+a:hover {
+  background-color: rgb(175, 213, 242);
   color: black;
-  padding: 32px 8px;
+  transform: translate(0px, -4px);
+  text-shadow: 0 6px 6px rgba(0,0,0,1);
+  cursor: pointer;
+  transition-delay: 0s;
+  transition-duration: 1s;
+ }
+
+
+a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    padding: 1em;
+  }
+
+#list-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
 }
 
 footer {
