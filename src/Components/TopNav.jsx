@@ -10,7 +10,7 @@ export default function TopNav() {
             alt="A girl sitting on a giant book with the sun in background."
           ></img>
           <p id="header-text">
-            <i>Sharing good, one quote at a time</i> 💛
+            <i>Sharing light, one quote at a time</i> 💛
           </p>
         <section id="social-container">
           <a
