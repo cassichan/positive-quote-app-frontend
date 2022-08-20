@@ -1,6 +1,7 @@
 #bottom-nav {
-    background: linear-gradient(turquoise, white);
-    background-color: #fffbee;
+    /* background-color: rgb(91, 146, 198); */
+    background-color: rgb(234, 242, 243);
+    opacity: 0.5;
     margin: 0;
     padding: 1em;
     position: sticky;
@@ -10,6 +11,17 @@
     flex-direction: flex-end;
     justify-content: center;
     align-items: center;
-    font-family: 'Open Sans';
     font-weight: bold;
+    font-family: Futura,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: none;
+    height: 0.05em;
+}
+
+#list-container {
+    display: flex;
+    justify-content: space-around;
   }

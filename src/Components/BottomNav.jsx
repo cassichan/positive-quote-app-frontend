@@ -8,7 +8,7 @@ export default function BottomNav() {
         <li><a href="">Home</a></li>
         <li><a href="">Quote Collection</a></li>
         <li><a href="">About</a></li>
-        <li><a href="">Connect</a></li>
+        <li><a href="">Gallery</a></li>
       </ul>
       </nav>
     </header>

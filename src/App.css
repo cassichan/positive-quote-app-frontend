@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Nanum+Gothic:wght@700&family=Open+Sans:ital,wght@0,300;1,400&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 *,
 *::before,
@@ -14,52 +13,56 @@
   box-sizing: inherit;
 }
 
-
-
-
-a:hover {
-  background-color: rgb(175, 213, 242);
-  color: black;
-  transform: translate(0px, -4px);
-  text-shadow: 0 6px 6px rgba(0,0,0,1);
-  cursor: pointer;
-  transition-delay: 0s;
-  transition-duration: 1s;
- }
-
+a:link {
+  text-decoration: none;
+  color: rgb(242, 175, 242);
+}
 
 a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
+a.visited {
+  color: rgb(177, 44, 155);
+}
+
+a:hover {
+  background-color: rgb(242, 175, 242);
+  color: black;
+  transform: translate(0px, -4px);
+  /* text-shadow: 0 6px 6px rgba(0,0,0,1); */
+  cursor: pointer;
+  transition-delay: 0s;
+  transition-duration: 1s;
+}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  li {
-    padding: 1em;
-  }
-
-#list-container {
-  display: flex;
-  justify-content: space-around;
+li {
+  padding: 1em;
 }
 
 footer {
-  text-align: center;
-  background-color: rgb(174, 212, 223);
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
-  top: 100vh;
-  font-family: "Open Sans";
-  padding: 0;
   display: flex;
-  align-content: center;
   justify-content: center;
-  max-height: 20vh;
-  position: sticky;
+  align-items: flex-end;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #3dd2e6;
+  opacity: 1;
+  font-family: "Open Sans";
+}
+
+.social-img {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
 }
