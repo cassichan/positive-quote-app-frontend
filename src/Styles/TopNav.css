@@ -9,7 +9,8 @@
   font-weight: 500;
   font-size: 15px;
   letter-spacing: normal;
-  color: #2d2a26;
+  /* color: #2d2a26; */
+  color:rgb(230, 141, 235);
   margin: 0;
   padding: 1em;
   position: sticky;

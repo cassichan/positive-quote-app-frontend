@@ -10,7 +10,7 @@ export default function QuoteList() {
       .then((data) => setQuote(data));
   }, []);
   if (!quote) {
-    return <h2>Loading...</h2>;
+    return <h1>Loading...</h1>
   }
 
   // const printQuotes = async (quote) => {
@@ -27,7 +27,7 @@ export default function QuoteList() {
   //   }
   // }
   return (
-    <div id="main">
+    <div className="main">
       <br/>
       <h1><u>Quote Collection</u></h1>
       <br />

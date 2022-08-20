@@ -1,13 +1,13 @@
 import Hero from "../Components/Hero";
 import AddQuote from "../Components/AddQuote";
-import CatForm from "../Components/CatForm";
+import "../Styles/Home.css"
 
 export default function Home() {
     return (
-        <>
+        <main>
         <Hero/>
-        <CatForm/>
+        <br/><br/><br/><br/>
         <AddQuote/>
-        </>
+        </main>
     )
 }

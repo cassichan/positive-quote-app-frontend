@@ -55,16 +55,17 @@ export default function AddQuote() {
   };
   console.log(form);
   return (
-    <section class="add-quote-main">
+    <section className="add-quote-main">
       <p>
         <h2>Share your favorite quote below!</h2>
         <h3>We would love to hear from you.</h3>
       </p>
-      <br />
-      <br />
-      <br />
-      <p id="add-quote-form">
-        <form onSubmit={formSubmit}>
+      <div id="form-container">
+        <img
+          src="https://cdn.pixabay.com/photo/2021/01/04/17/37/cats-5888277_1280.png"
+          alt="A drawing of three cats holding a blank notebad"
+        ></img>
+        <form className="floating-form" onSubmit={formSubmit}>
           <label>Post a quote:</label>
           <br />
           <input
@@ -87,7 +88,7 @@ export default function AddQuote() {
             Submit
           </button>
         </form>
-      </p>
+      </div>
       <br />
       <br />
     </section>

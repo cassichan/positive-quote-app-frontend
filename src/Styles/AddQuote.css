@@ -5,13 +5,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
 }
 
+#form-container {
+  position: relative;
+}
 
-
-#add-quote-form {
-  background-image: url("https://cdn.pixabay.com/photo/2021/01/04/17/37/cats-5888277_1280.png");
-  /* background-size: 600px 600px; */
-  opacity: 0.5;
+.floating-form {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
