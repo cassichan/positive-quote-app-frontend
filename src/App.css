@@ -31,7 +31,6 @@ a:hover {
   background-color: rgb(242, 175, 242);
   color: black;
   transform: translate(0px, -4px);
-  /* text-shadow: 0 6px 6px rgba(0,0,0,1); */
   cursor: pointer;
   transition-delay: 0s;
   transition-duration: 1s;
@@ -51,7 +50,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;

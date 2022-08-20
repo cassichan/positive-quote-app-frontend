@@ -28,7 +28,8 @@ export default function QuoteList() {
   // }
   return (
     <div id="main">
-      <h2>WARNING: Good vibes below.</h2>
+      <br/>
+      <h1><u>Quote Collection</u></h1>
       <br />
       <ul>
         <Quotes quote={quote} />
@@ -40,12 +41,6 @@ export default function QuoteList() {
       >
         Click to show quotes in console!
       </button> */}
-      <br />
-      <br />
-      <img
-        src="https://cdn.pixabay.com/photo/2017/08/01/22/31/wall-2568346_1280.jpg"
-        alt="A graffitied red brick wall that says 'Everything has beauty but not everyone can see it'"
-      ></img>
     </div>
   );
 }
