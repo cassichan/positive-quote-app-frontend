@@ -1,11 +1,10 @@
-img {
+.gallery-img {
   max-width: 50%;
-  /* display: inline-block; */
   height: auto;
   padding: 10px;
 }
 
-#gallery-img-container {
+.gallery-img-container {
   display: flex;
   flex-direction: column;
   justify-content: center;

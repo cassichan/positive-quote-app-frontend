@@ -61,7 +61,7 @@ export default function AddQuote() {
         <h3>We would love to hear from you.</h3>
       </p>
       <div id="form-container">
-        <img
+        <img className="post-quote-img"
           src="https://cdn.pixabay.com/photo/2021/01/04/17/37/cats-5888277_1280.png"
           alt="A drawing of three cats holding a blank notebad"
         ></img>

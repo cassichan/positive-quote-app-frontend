@@ -1,3 +1,22 @@
-#about-container {
-   margin-top: 200
+.about-main {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about-img {
+  max-width: 50%;
+  height: auto;
+  padding: 10px;
+}
+
+.about-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

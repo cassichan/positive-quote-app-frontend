@@ -7,7 +7,6 @@ import {
 
 import Home from "./Pages/Home";
 import TopNav from "./Components/TopNav";
-// import BottomNav from "./Components/BottomNav";
 import Footer from "../src/Components/Footer.jsx";
 import QuoteList from "./Components/QuoteList";
 import Gallery from "./Pages/Gallery.jsx";
@@ -18,7 +17,7 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <TopNav />
       <nav id="bottom-nav">
         <Link to="/">Home</Link>&nbsp;&nbsp;
@@ -32,8 +31,8 @@ function App() {
         <Route path="/gallery" element={<Gallery />}></Route>
         <Route index path="/" element={<Home />}></Route>
       </Routes>
-      <Footer />
-    </>
+      <Footer/>
+    </div>
   );
 }
 
