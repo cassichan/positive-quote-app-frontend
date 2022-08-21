@@ -11,7 +11,7 @@ export default function About() {
         <br />
         <p className="about-main">
           I hope that my creating this space I can share that with others.
-        </p><br/><br/>
+        </p><br/><br/><br/>
 
         <img
           className="about-img"
