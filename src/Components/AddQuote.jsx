@@ -39,7 +39,7 @@ export default function AddQuote() {
       setFormSubmitted(true);
       setErrorMessage("");
       setValidForm(true);
-      // setForm(form)
+      window.location.reload(false);
       console.log("Form:", form);
     } catch (error) {
       console.error(error);
@@ -54,6 +54,8 @@ export default function AddQuote() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
   console.log(form);
+
+
   return (
     <section className="add-quote-main">
       <p>
