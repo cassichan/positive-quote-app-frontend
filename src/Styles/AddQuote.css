@@ -18,8 +18,9 @@
   transform: translate(-50%, -50%);
 }
 
-.post-quote-img {
-  max-width: 50%;
+.post-quote-img { 
+  min-width: 350px;
+  max-width: 70%;
   height: auto;
   padding: 10px;
 }

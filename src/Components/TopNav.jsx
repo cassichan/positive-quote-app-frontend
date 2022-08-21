@@ -4,14 +4,14 @@ export default function TopNav() {
   return (
     <header>
       <nav id="nav">
-          <img
-            id="logo-image"
-            src="https://cdn.pixabay.com/photo/2017/11/22/09/03/girl-flying-on-book-2970038_1280.jpg"
-            alt="A girl sitting on a giant book with the sun in background."
-          ></img>
-          <p id="header-text">
-            <i>Sharing light, one quote at a time</i> 💛
-          </p>
+        <img
+          id="logo-image"
+          src="https://cdn.pixabay.com/photo/2017/11/22/09/03/girl-flying-on-book-2970038_1280.jpg"
+          alt="A girl sitting on a giant book with the sun in background."
+        ></img>
+        <i>
+          Sharing light, <br/>One quote at a time 💛
+        </i>
         <section id="social-container">
           <a
             href="https://github.com/cassichan"

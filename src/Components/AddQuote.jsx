@@ -58,10 +58,10 @@ export default function AddQuote() {
 
   return (
     <section className="add-quote-main">
-      <p>
+      <div>
         <h2>Share your favorite quote below!</h2>
         <h3>We would love to hear from you.</h3>
-      </p>
+      </div>
       <div id="form-container">
         <img className="post-quote-img"
           src="https://cdn.pixabay.com/photo/2021/01/04/17/37/cats-5888277_1280.png"
